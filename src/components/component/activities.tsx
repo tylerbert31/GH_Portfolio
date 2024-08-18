@@ -4,7 +4,7 @@ export default function Activities() {
   return (
     <section>
       <h2 className="text-lg font-semibold mb-4">Activity</h2>
-      <div className="grid gap-4">
+      <div className="activities flex flex-col gap-4">
         <Card>
           <CardHeader>
             <div className="flex items-center justify-between">

@@ -64,7 +64,9 @@ export default function Pinned() {
               </div>
             </CardHeader>
             <CardContent key={repo.name}>
-              <p className="text-muted-foreground">{repo.description}</p>
+              <p className="text-muted-foreground text-wrap">
+                {repo.description}
+              </p>
               <div className="flex items-center gap-2 mt-2 text-sm text-muted-foreground">
                 <CodeIcon />
                 <span>{repo.language}</span>

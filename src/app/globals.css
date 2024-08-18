@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+.md-card {
+  max-width: 100vw;
+  width: 100vw;
+}
+
+.skillicons {
+  max-width: calc(100vw - 12px);
+}
+
+.activities {
+  max-width: calc(100vw - 12px) !important;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
